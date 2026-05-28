@@ -1,6 +1,6 @@
 # codexlog
 
-`codexlog` 是一个用于清理本机 Codex 聊天记录的小型命令行工具。
+`codexlog` 是一个用于清理本机 Codex 聊天记录的小型命令行工具。 `提供一键彻底删除全部记录功能，Codex CLI彻底变干净，Codex Desktop也会变干净但是否有其他影响未知，如果是Codex Desktop请谨慎使用彻底删除。`
 
 ## 为什么做这个工具
 
@@ -69,7 +69,7 @@ codexlog
 
 ## 重要提醒
 
-清理前请先退出 Codex。
+清理前请先退出 Codex CLI、Codex Desktop、Codex扩展。
 
 如果 Codex 仍在运行，它可能正在写入或锁定本地数据。为了避免数据正在写入、锁定或状态未同步的情况，请先关闭正在运行的 Codex，再执行：
 
@@ -129,8 +129,6 @@ npm test
 - npm
 
 ## 版本
-
-当前版本：`0.1.2`
 
 这是一个测试性质的小工具，后续可能会根据 Codex 的变化继续调整。
 
