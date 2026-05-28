@@ -101,7 +101,7 @@ codexlog
 克隆项目：
 
 ```sh
-git clone <repo-url>
+git clone https://github.com/leebufan/codexlog.git
 cd codexlog
 ```
 
@@ -130,7 +130,7 @@ npm test
 
 ## 版本
 
-当前版本：`0.1.0`
+当前版本：`0.1.2`
 
 这是一个测试性质的小工具，后续可能会根据 Codex 的变化继续调整。
 
