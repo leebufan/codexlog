@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Runtime/cache data created while testing locally
+.runtime/
+
+# npm package artifacts
+*.tgz
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+
+# Coverage/build output
+coverage/
+dist/
+build/
+test/
